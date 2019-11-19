@@ -1,4 +1,4 @@
-package com.nobre.jsoap;
+package com.nobre.jsoup;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-       new Thread(new BuscaCotacoesRunnable()).start();
-
+       new Thread(new BuscaCotacoesRunnable()).start(); // deve ser em outra thread
+        
     }
 
     public class BuscaCotacoesRunnable implements Runnable{

@@ -1,4 +1,4 @@
-package com.nobre.jsoap;
+package com.nobre.jsoup;
 
 import org.junit.Test;
 
